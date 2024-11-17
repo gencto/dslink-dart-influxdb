@@ -14,9 +14,10 @@ Future<void> main() async {
         'run',
         'bin/dslink.dart',
         '--broker',
-        'https://dsa.gencto.uk/conn',
+        '${Platform.environment['BROKER']}',
         '--log',
-        'info'
+        'debug',
+        '${bool.fromEnvironment("dsa.mode.debug", defaultValue: false)}',
       ],
     );
     serverProcess?.stdout.transform(utf8.decoder).listen((data) {

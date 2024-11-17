@@ -110,7 +110,7 @@ packages:
     description:
       path: "."
       ref: master
-      resolved-ref: "78140133fc2c2508f005501bb973acd63c19362a"
+      resolved-ref: "6ba00e69a43095e62ea15b3de8c1626293c3e1c1"
       url: "https://github.com/gencto/sdk-dslink-dart.git"
     source: git
     version: "2.0.0"
@@ -435,7 +435,7 @@ packages:
     source: hosted
     version: "14.0.0"
   watcher:
-    dependency: transitive
+    dependency: "direct main"
     description:
       name: watcher
       sha256: "3d2ad6751b3c16cf07c7fca317a1413b3f26530319181b37e3b9039b84fc01d8"

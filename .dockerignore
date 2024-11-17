@@ -9,5 +9,7 @@ build/
 .packages
 .dslink.key
 .idx
+.vscode
 nodes.json
 .env
+dslink.json
