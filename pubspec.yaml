@@ -1,0 +1,19 @@
+name: dslink_dart_influxdb
+description: Implementation of connection to the InfluxDB
+version: 1.0.0
+repository: https://github.com/gencto/dslink-dart-influxdb
+
+environment:
+  sdk: ^3.1.3
+
+dependencies:
+  influxdb_client: ^2.9.0
+  dslink:
+    git:
+      url: https://github.com/gencto/sdk-dslink-dart.git
+      ref: master
+  stack_trace: ^1.11.1
+
+dev_dependencies:
+  lints: ^2.0.0
+  test: ^1.21.0
